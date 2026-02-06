@@ -1,0 +1,67 @@
+<!doctype html>
+<html lang="en" class="theme-light">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bulma@1.0.4/css/bulma.min.css"
+    />
+    <link rel="stylesheet" href=".//PAGES/contacto.css" />
+    <script src="./COMPONENTS/header.js" defer></script>
+    <script src="./COMPONENTS/footer.js" defer></script>
+    <script src="./PAGES/contacto.js" defer></script>
+
+    <title>Contacto</title>
+  </head>
+  <body>
+    <div class="all-container">
+      <header class="header-recibe-comp"></header>
+      <form action="" class="form">
+        <h1 class="form__title">Escribime</h1>
+        <div class="form__cont">
+          <div class="form__cont-subcont-inputs">
+            <div class="form__cont-subcont">
+              <label class="label">Nombre</label>
+              <div class="control">
+                <input
+                  class="input"
+                  type="text"
+                  name="nombre"
+                  placeholder="Tu nombre"
+                />
+              </div>
+            </div>
+            <div class="form__cont-subcont">
+              <label class="label">Email</label>
+              <div class="control">
+                <input
+                  class="input"
+                  type="email"
+                  name="email"
+                  placeholder="tu@mail.com"
+                />
+              </div>
+            </div>
+          </div>
+          <div class="cont__form-subcont">
+            <label class="label">Mensaje</label>
+            <div class="control">
+              <textarea name="mensaje" class="textarea"></textarea>
+            </div>
+          </div>
+          <button class="button">
+            Enviar <img src="./IMG/send.png" alt="" />
+          </button>
+        </div>
+      </form>
+      <footer class="footer-recibe-comp"></footer>
+    </div>
+  </body>
+</html>
